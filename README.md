@@ -17,12 +17,15 @@ a[i]											The mole count of O2 in our reactants PER 1 MOLE OF FUEL
 b[i],c[i],d[i],e[i],f[i],g[i],j[i],k[i],m[i],n[i]								Mole count of the different product species PER 1 MOLE OF FUEL
 n_tot[i]									Total mole count of our product species PER 1 MOLE OF FUEL
 y_()[i]										Mole fractions of the different product species 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
 Part 1 - b:
 Code relating to the incomplete combustion assumption of the first segment of the preliminary design. (Problem 2)
 Important variables: 
 K_1[i] up until K_6[i]								Equilibrium constant
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+
 Part 2:
 Code relating to the second segment of the preliminary design.
 Important variables: 
@@ -42,3 +45,4 @@ m_dot_cumulative[z]													The total mass flowrate for air AND fuel at each
 RR_1[z] up until RR_2[z]										The Rate of Reaction for the each of the reactions in the Zeldovich mechanism
 k_N1_f[z] up until k_N3_f[z]								The forward Rate Coefficients for the each of the reactions in the Zeldovich mechanism
 k_N1_r[z] up until k_N3_r[z]								The reverse Rate Coefficients for the each of the reactions in the Zeldovich mechanism
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
